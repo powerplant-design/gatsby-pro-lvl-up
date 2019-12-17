@@ -1,11 +1,14 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Nav from "./nav"
+
+import logo from "../images/wigclub-logo.png"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `coral`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -24,10 +27,12 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <img src={logo} alt={siteTitle}/>
+          {/* {siteTitle} */}
         </Link>
       </h1>
     </div>
+    <Nav></Nav>
   </header>
 )
 
