@@ -8,14 +8,15 @@ const FooterWrapper = styled.footer`
   bottom: 0;
   left: 0;
   height: 30px;
-  font-size: 0.8rem;
-  font-family: monospace;
+  font-size: 0.6rem;
+  /* font-family: monospace; */
   width: 100%;
   display: flex;
   justify-content: center;
   a {
     display: inline-block;
     opacity:0.8;
+    color: coral;
   }
       & a:hover {
       opacity: 1;
