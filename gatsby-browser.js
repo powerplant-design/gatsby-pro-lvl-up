@@ -5,3 +5,5 @@
  */
 
 // You can delete this file if you're not using it
+// ? IMPORT FONT FACE GLOBALLY!!
+import "./src/fonts/fontface.css"

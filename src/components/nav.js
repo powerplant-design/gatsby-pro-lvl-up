@@ -6,7 +6,8 @@ const NavWrapper = styled.nav`
     width: 100%;
     color: white;
     padding: 0 2rem;
-    
+    font-family: 'Violet-Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;    
     ul {
         margin: 0 auto;
         display: inline-block;

@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -40,7 +40,6 @@ template {
   display: none;
 }
 a {
-  color: coral;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -201,8 +200,11 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: Arial, Helvetica, sans-serif;
+  color: #1c1c1c;
+  /* background-color: #1c1c1c; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -249,8 +251,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Violet-Sans', Helvetica, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
