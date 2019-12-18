@@ -45,9 +45,6 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
-header a {
-  color: whitesmoke;
-}
 a:active,
 a:hover {
   outline-width: 0;
