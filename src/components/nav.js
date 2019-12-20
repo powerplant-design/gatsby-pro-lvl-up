@@ -11,7 +11,7 @@ const NavWrapper = styled.nav`
     ul {
         margin: 0 auto;
         display: inline-block;
-        max-width: 380px;
+        max-width: 640px;
         list-style: none;
         display: flex;
         justify-content: space-between;
@@ -31,6 +31,7 @@ const Nav = () => {
             <ul>
                 <li><Link to="/">HOME</Link></li>
                 <li><Link to="/about">ABOUT</Link></li>
+                <li><Link to="/gallery">GALLERY</Link></li>
                 <li><Link to="/services">SERVICES</Link></li>
             </ul>
         </NavWrapper>
