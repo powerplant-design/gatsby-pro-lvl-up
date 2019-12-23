@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 
 const FooterWrapper = styled.footer`
-  position: absolute;
+  position: fixed;
   background-color: #1c1c1c;
   color: whitesmoke;
   bottom: 0;
