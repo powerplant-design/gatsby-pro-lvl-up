@@ -1,6 +1,9 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
+// import { Link } from "gatsby"
 import React from "react"
+import PropTypes from "prop-types"
+import TransitionLink from 'gatsby-plugin-transition-link'
+// import AniLink from "gatsby-plugin-transition-link/AniLink";
+
 import Nav from "./nav"
 import logo from "../images/wigclub-logo.png"
 
@@ -29,9 +32,15 @@ const Header = ({ siteTitle }) => (
   <HeaderWrapper>
     <HeaderContainer>
       <h1>
-        <Link to="/">
+        <TransitionLink to="/" 
+        exit={{
+          length: 0.5
+        }}
+        entry={{
+          length: 2
+        }}>
           <img src={logo} alt={siteTitle}/>
-        </Link>
+        </TransitionLink>
       </h1>
     </HeaderContainer>
     <Nav></Nav> {/* TO NAV COMPONENT */}

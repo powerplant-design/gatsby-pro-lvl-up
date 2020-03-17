@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import styled from "styled-components"
 
 const NavWrapper = styled.nav`
@@ -29,10 +30,10 @@ const Nav = () => {
     return (
         <NavWrapper>
             <ul>
-                <li><Link to="/">HOME</Link></li>
-                <li><Link to="/about">ABOUT</Link></li>
-                <li><Link to="/gallery">GALLERY</Link></li>
-                <li><Link to="/services">SERVICES</Link></li>
+                <li><AniLink fade to="/" duration={1}>HOME</AniLink></li>
+                <li><AniLink fade to="/about" duration={1}>ABOUT</AniLink></li>
+                <li><AniLink fade to="/gallery" duration={1}>GALLERY</AniLink></li>
+                <li><AniLink fade to="/services" duration={1}>SERVICES</AniLink></li>
             </ul>
         </NavWrapper>
     )
